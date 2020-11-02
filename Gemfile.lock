@@ -1,15 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.13)
-      i18n (= 0.6.1)
-      multi_json (~> 1.0)
+    activesupport (6.0.3.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    concurrent-ruby (1.1.7)
     diff-lcs (1.2.4)
     haml (4.0.3)
       tilt
-    i18n (0.6.1)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.2)
     mp3info (0.6.18)
-    multi_json (1.7.7)
     polyglot (0.3.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -26,11 +31,15 @@ GEM
     shoulda-matchers (2.2.0)
       activesupport (>= 3.0.0)
     text (1.2.1)
+    thread_safe (0.3.6)
     tilt (1.4.1)
     treetop (1.4.14)
       polyglot
       polyglot (>= 0.3.1)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
     xml-simple (1.1.2)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
